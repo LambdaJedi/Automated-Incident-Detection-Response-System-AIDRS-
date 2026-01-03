@@ -1,0 +1,15 @@
+{
+  "service": "payment-api",
+  "status": "DEGRADED",
+  "checks": [
+    {
+      "name": "database",
+      "status": "FAIL"
+    },
+    {
+      "name": "api-latency",
+      "status": "WARN"
+    }
+  ]
+}
+

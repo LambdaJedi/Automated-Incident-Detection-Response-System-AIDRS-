@@ -1,0 +1,12 @@
+{
+  "incidentId": "INC-12345",
+  "service": "payment-api",
+  "errorMessage": "Timeout while connecting to DB",
+  "timestamp": "2026-01-03T08:30:00Z",
+  "metrics": {
+    "cpu": 92,
+    "memory": 81,
+    "latencyMs": 3400
+  }
+}
+

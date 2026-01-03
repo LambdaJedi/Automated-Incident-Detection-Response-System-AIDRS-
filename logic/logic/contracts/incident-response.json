@@ -1,0 +1,8 @@
+{
+  "incidentId": "INC-12345",
+  "severity": "HIGH",
+  "confidence": 0.87,
+  "summary": "Likely database saturation causing cascading timeouts",
+  "recommendedAction": "Restart DB pod and scale replicas"
+}
+
