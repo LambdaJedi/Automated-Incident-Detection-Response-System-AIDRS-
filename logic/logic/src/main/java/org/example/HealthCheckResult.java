@@ -22,4 +22,10 @@ public class HealthCheckResult {
     public String getMessage() {
         return message;
     }
+
+    @Override
+    public String toString() {
+        return String.format("Status: %d, Response Time: %dms, Message: %s",
+                statusCode, responseTimeMs, message);
+    }
 }
